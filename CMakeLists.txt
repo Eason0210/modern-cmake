@@ -41,6 +41,7 @@ if(${CMAKE_VERSION} VERSION_LESS 3.14)
   include(cmake/add_FetchContent_MakeAvailable.cmake)
 endif()
 
+set(BOOST_ROOT "${CMAKE_SOURCE_DIR}/deps/boost_1_79_0")
 # Accumulator library
 # This is header only, so could be replaced with git submodules or FetchContent
 find_package(Boost REQUIRED)
