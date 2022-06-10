@@ -8,6 +8,12 @@ The requirements are:
 - Git
 - Doxygen (optional)
 
+Install Boost
+
+```bash
+./install-boost.sh
+```
+
 To configure:
 
 ```bash
